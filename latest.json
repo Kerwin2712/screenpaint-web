@@ -1,0 +1,16 @@
+{
+  "payload": {
+    "version": "3.1.0",
+    "published": "2026-10-20",
+    "notes": {
+      "es": "Sube videos y capturas a Google Drive (PRO), elige quién ve el enlace y cópialo con un clic. Actualizaciones automáticas. Scroll con la mano cerrada como en una pantalla táctil. Videos que se reproducen antes en la web.",
+      "en": "Upload recordings and screenshots to Google Drive (PRO), choose who can open the link and copy it in one click. Automatic updates. Touch-style fist scrolling. Videos that start playing sooner on the web."
+    },
+    "windows": {
+      "url": "https://github.com/Kerwin2712/screenpaint-web/releases/download/v3.1.0/ScreenPaint_Installer_v3.1.0.exe",
+      "sha256": "db10c2ab1331b34a63eed69788a37eb85cfa25c54e5badb21d92a5882dbdcfcc",
+      "size": 88919980
+    }
+  },
+  "signature": "fd47xj8NSgPm8SE55A8DQiftUmE1hQsgn1MaypfjakGfnz77zXoUE_R-ZNyk0abcBGJ3_LQZBKJsAq_wOOaiCQ"
+}

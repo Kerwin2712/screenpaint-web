@@ -13,6 +13,7 @@
       <a class="brand" href="./">ScreenPaint</a>
       <nav>
         <a href="./" aria-current="page">Inicio</a>
+        <a href="#descargar">Descargar</a>
         <a href="privacidad.html">Privacidad</a>
       </nav>
     </div>
@@ -22,6 +23,7 @@
     <h1>ScreenPaint</h1>
     <p class="lead">Una aplicación de escritorio para Windows que te deja dibujar y anotar sobre cualquier programa, tomar capturas y grabar tu pantalla.</p>
     <p class="muted">Pensada para clases, explicaciones y presentaciones en vivo.</p>
+    <p><a class="button" href="#descargar">Descargar ScreenPaint</a></p>
 
     <div class="cards">
       <div class="card">
@@ -42,6 +44,29 @@
       </div>
     </div>
 
+    <h2 id="descargar">Descargar</h2>
+    <p id="release-line" class="muted">Última versión de ScreenPaint.</p>
+    <div class="cards">
+      <div class="card">
+        <strong>Windows 10 y 11</strong>
+        <p id="windows-size">Instalador para equipos de 64 bits.</p>
+        <p class="download"><a class="button" id="windows-link" href="https://github.com/Kerwin2712/screenpaint-web/releases/latest">Descargar para Windows</a></p>
+      </div>
+      <div class="card">
+        <strong>macOS</strong>
+        <p id="macos-size">Imagen de disco (.dmg).</p>
+        <p class="download"><a class="button" id="macos-link" href="https://github.com/Kerwin2712/screenpaint-web/releases/latest">Descargar para macOS</a></p>
+      </div>
+    </div>
+    <div id="release-notes" class="note" hidden></div>
+    <h3>Al instalar</h3>
+    <ul>
+      <li><strong>Windows:</strong> si aparece «Windows protegió su PC», pulsa <em>Más información</em> → <em>Ejecutar de todas formas</em>.</li>
+      <li><strong>macOS:</strong> arrastra ScreenPaint a Aplicaciones. La primera vez, haz clic derecho sobre la app → <em>Abrir</em> y confirma.</li>
+      <li><strong>Actualizaciones:</strong> ScreenPaint te avisa cuando hay una versión nueva y se actualiza solo, sin perder tus preferencias ni tu licencia.</li>
+    </ul>
+    <p class="muted">Versiones anteriores: <a href="https://github.com/Kerwin2712/screenpaint-web/releases">todas las versiones</a>.</p>
+
     <h2>Google Drive</h2>
     <p>Si lo activas en Preferencias, ScreenPaint puede subir a tu Google Drive los videos que grabas y las capturas que tomas. Pide un solo permiso de Google, <code>drive.file</code>: con él solo puede ver y modificar los archivos que crea la propia aplicación, nunca el resto de tu Drive. El archivo queda siempre también en tu equipo, y puedes desconectar tu cuenta cuando quieras.</p>
     <p>Los detalles están en la <a href="privacidad.html">política de privacidad</a>.</p>
@@ -49,6 +74,36 @@
     <h2 lang="en">In English</h2>
     <p lang="en">ScreenPaint is a Windows desktop app to draw and annotate over any program, take screenshots and record your screen. Optionally, it can upload your recordings and screenshots to your own Google Drive using only the <code>drive.file</code> scope, which limits access to the files the app creates. See the <a href="privacidad.html#english">privacy policy</a>.</p>
   </main>
+
+  <script>
+    // Botones de descarga desde latest.json (lo publica tools/publish_release.py
+    // en el repo de ScreenPaint). Sin latest.json quedan apuntando a la
+    // página de releases.
+    (function () {
+      function mb(bytes) { return bytes ? " (" + Math.round(bytes / 1048576) + " MB)" : ""; }
+      fetch("latest.json", { cache: "no-store" })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (doc) {
+          var p = doc && doc.payload;
+          if (!p || !p.version) return;
+          document.getElementById("release-line").textContent =
+            "Versión " + p.version + (p.published ? " · publicada el " + p.published : "");
+          [["windows", "Instalador para equipos de 64 bits"], ["macos", "Imagen de disco (.dmg)"]].forEach(function (pair) {
+            var asset = p[pair[0]];
+            if (!asset || !asset.url) return;
+            document.getElementById(pair[0] + "-link").href = asset.url;
+            document.getElementById(pair[0] + "-size").textContent = pair[1] + mb(asset.size) + ".";
+          });
+          var notes = p.notes && (p.notes.es || p.notes.en);
+          if (notes) {
+            var box = document.getElementById("release-notes");
+            box.textContent = "Novedades de la " + p.version + ": " + notes;
+            box.hidden = false;
+          }
+        })
+        .catch(function () {});
+    })();
+  </script>
 
   <footer class="site">
     <div class="wrap">

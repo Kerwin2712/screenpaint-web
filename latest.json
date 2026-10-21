@@ -1,16 +1,16 @@
 {
   "payload": {
-    "version": "3.1.0",
-    "published": "2026-10-20",
+    "version": "3.1.1",
+    "published": "2026-10-21",
     "notes": {
-      "es": "Sube videos y capturas a Google Drive (PRO), elige quién ve el enlace y cópialo con un clic. Actualizaciones automáticas. Scroll con la mano cerrada como en una pantalla táctil. Videos que se reproducen antes en la web.",
-      "en": "Upload recordings and screenshots to Google Drive (PRO), choose who can open the link and copy it in one click. Automatic updates. Touch-style fist scrolling. Videos that start playing sooner on the web."
+      "es": "Las capturas ya no cortan la grabación: el video sigue mientras tomas y guardas una captura. La ventana de Preferencias es más ancha.",
+      "en": "Screenshots no longer interrupt recording: the video keeps going while you take and save a screenshot. The Preferences window is wider."
     },
     "windows": {
-      "url": "https://github.com/Kerwin2712/screenpaint-web/releases/download/v3.1.0/ScreenPaint_Installer_v3.1.0.exe",
-      "sha256": "db10c2ab1331b34a63eed69788a37eb85cfa25c54e5badb21d92a5882dbdcfcc",
-      "size": 88919980
+      "url": "https://github.com/Kerwin2712/screenpaint-web/releases/download/v3.1.1/ScreenPaint_Installer_v3.1.1.exe",
+      "sha256": "12cfaac88c4f3538231b32b5e57e5d94fde62c7930e1fdf1303b136fd7984141",
+      "size": 88920894
     }
   },
-  "signature": "fd47xj8NSgPm8SE55A8DQiftUmE1hQsgn1MaypfjakGfnz77zXoUE_R-ZNyk0abcBGJ3_LQZBKJsAq_wOOaiCQ"
+  "signature": "ETbIeKX_Q8H7DakzJS73HSFhwwckjQbbCYluNNTsVFLiN6T-9B7P0AZSYdg2Ed9uFDD0N85QqgeuyOlB0d_GBg"
 }

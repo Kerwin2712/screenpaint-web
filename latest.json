@@ -1,16 +1,16 @@
 {
   "payload": {
-    "version": "3.2.0",
+    "version": "3.2.1",
     "published": "2026-10-31",
     "notes": {
-      "es": "Elige el monitor al capturar con varios monitores, páginas de lienzo con guardado de dibujos, grabar un recorte dibujando el área (con proporción fija) y controles de grabación movibles.",
-      "en": "Pick the monitor when capturing with several monitors, canvas pages with saveable drawings, record a crop by drawing the area (fixed proportion), and movable recording controls."
+      "es": "La app ya no se cierra de golpe al terminar varias grabaciones ni al cerrar la cámara, y recupera sola una grabación que no llegó a guardarse. El diseño de cada herramienta se conserva al cerrar, Preferencias tiene un enlace a tu carpeta de Google Drive, y guardar un lienzo guarda solo la página activa.",
+      "en": "The app no longer closes abruptly after several recordings or when closing the camera, and it recovers a recording that was never saved. Each tool's style is kept after closing, Preferences has a link to your Google Drive folder, and saving a canvas saves only the active page."
     },
     "windows": {
-      "url": "https://github.com/Kerwin2712/screenpaint-web/releases/download/v3.2.0/ScreenPaint_Installer_v3.2.0.exe",
-      "sha256": "e5195b72b8cb1524484b139729129b3f73b0a4d20dfa2a28b4d12b73cbf0276d",
-      "size": 89390114
+      "url": "https://github.com/Kerwin2712/screenpaint-web/releases/download/v3.2.1/ScreenPaint_Installer_v3.2.1.exe",
+      "sha256": "86e3861f21bebc92401ee47bdace597f3be5a8c5d503dbb30b5a8d6135a635c3",
+      "size": 89471740
     }
   },
-  "signature": "i4w4MsoWfJYzgfz2uj4Xt2TTSH4GKw80v2DZ1YyeMSuvVoHr4IH17G0G9PkCSVuP82IX-ZxOBfTH4xYSVUAEAw"
+  "signature": "B2LbnX6AuKLh8WuAj2qnlpsRx5BBUQPL9ygO4gKqPaTHlmv-0tAu9OxfzmxPpCblxPwTdPnoNeCV6pFsveMZAA"
 }

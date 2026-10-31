@@ -10,7 +10,12 @@
       "url": "https://github.com/Kerwin2712/screenpaint-web/releases/download/v3.2.1/ScreenPaint_Installer_v3.2.1.exe",
       "sha256": "86e3861f21bebc92401ee47bdace597f3be5a8c5d503dbb30b5a8d6135a635c3",
       "size": 89471740
+    },
+    "macos": {
+      "url": "https://github.com/Kerwin2712/screenpaint-web/releases/download/v3.2.1/ScreenPaint_macOS_v3.2.1.dmg",
+      "sha256": "e51b606f29681f89ba1fa0252f5a94b212671b247233c617b601a05f8cd7b6c9",
+      "size": 374746823
     }
   },
-  "signature": "B2LbnX6AuKLh8WuAj2qnlpsRx5BBUQPL9ygO4gKqPaTHlmv-0tAu9OxfzmxPpCblxPwTdPnoNeCV6pFsveMZAA"
+  "signature": "7OXeT0FSmT0Bk9xkJmH8uPT16Bz9l5GM37Vm5EEHqvNRVtGxYEozIPoQ2kK8zmM-a5he0jrmj-kmiqh2uhBwAA"
 }

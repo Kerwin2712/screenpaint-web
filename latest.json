@@ -1,16 +1,16 @@
 {
   "payload": {
-    "version": "3.1.1",
-    "published": "2026-10-21",
+    "version": "3.2.0",
+    "published": "2026-10-31",
     "notes": {
-      "es": "Las capturas ya no cortan la grabación: el video sigue mientras tomas y guardas una captura. La ventana de Preferencias es más ancha.",
-      "en": "Screenshots no longer interrupt recording: the video keeps going while you take and save a screenshot. The Preferences window is wider."
+      "es": "Elige el monitor al capturar con varios monitores, páginas de lienzo con guardado de dibujos, grabar un recorte dibujando el área (con proporción fija) y controles de grabación movibles.",
+      "en": "Pick the monitor when capturing with several monitors, canvas pages with saveable drawings, record a crop by drawing the area (fixed proportion), and movable recording controls."
     },
     "windows": {
-      "url": "https://github.com/Kerwin2712/screenpaint-web/releases/download/v3.1.1/ScreenPaint_Installer_v3.1.1.exe",
-      "sha256": "12cfaac88c4f3538231b32b5e57e5d94fde62c7930e1fdf1303b136fd7984141",
-      "size": 88920894
+      "url": "https://github.com/Kerwin2712/screenpaint-web/releases/download/v3.2.0/ScreenPaint_Installer_v3.2.0.exe",
+      "sha256": "e5195b72b8cb1524484b139729129b3f73b0a4d20dfa2a28b4d12b73cbf0276d",
+      "size": 89390114
     }
   },
-  "signature": "ETbIeKX_Q8H7DakzJS73HSFhwwckjQbbCYluNNTsVFLiN6T-9B7P0AZSYdg2Ed9uFDD0N85QqgeuyOlB0d_GBg"
+  "signature": "i4w4MsoWfJYzgfz2uj4Xt2TTSH4GKw80v2DZ1YyeMSuvVoHr4IH17G0G9PkCSVuP82IX-ZxOBfTH4xYSVUAEAw"
 }

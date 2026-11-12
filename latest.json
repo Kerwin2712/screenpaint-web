@@ -1,16 +1,16 @@
 {
   "payload": {
-    "version": "3.3.0",
-    "published": "2026-11-11",
+    "version": "3.4.0",
+    "published": "2026-11-12",
     "notes": {
-      "es": "Nueva Calculadora visual (tecla D): escribe cuentas y ecuaciones como en un libro, lee números del fondo con un rectángulo y opera paso a paso tocando cada parte.",
-      "en": "New Visual Calculator (D key): write sums and equations like a textbook, read numbers from the background with a rectangle and work step by step by tapping each part."
+      "es": "Calculadora: raíz cuadrada a ambos miembros, funciones (sen, cos, tan, ln, log) con su inversa, simplificar raíces y fracciones paso a paso, y subíndices (x_1).",
+      "en": "Calculator: square root on both sides, functions (sin, cos, tan, ln, log) with their inverse, step-by-step simplifying of roots and fractions, and subscripts (x_1)."
     },
     "windows": {
-      "url": "https://github.com/Kerwin2712/screenpaint-web/releases/download/v3.3.0/ScreenPaint_Installer_v3.3.0.exe",
-      "sha256": "ebeed602954e933ba24821ee6cafda6b020ee57781a0d6f885917c512de03d1a",
-      "size": 90087659
+      "url": "https://github.com/Kerwin2712/screenpaint-web/releases/download/v3.4.0/ScreenPaint_Installer_v3.4.0.exe",
+      "sha256": "8973a91ddbb3205f49c91d83a5737a7e47eef127cddc9d8d38b65d7228255c2d",
+      "size": 90204929
     }
   },
-  "signature": "wVPUhNGhjDCUwlo0pe2kZHaPX7d6do7yZ3AvQcVqp-4dmbDm_U9aXbTCQrrk74D3BW8sQDo_-b_u8mCzr5V7CA"
+  "signature": "FM_bN4x4eMMYqr0pGD6m8_eoqdBEQiEGu31ddMXD3bwprWLE9SwJf0bYABru0HzM0GtlTfe3fIkgb-Vn7LNLAA"
 }

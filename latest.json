@@ -1,21 +1,16 @@
 {
   "payload": {
-    "version": "3.2.1",
-    "published": "2026-10-31",
+    "version": "3.3.0",
+    "published": "2026-11-11",
     "notes": {
-      "es": "La app ya no se cierra de golpe al terminar varias grabaciones ni al cerrar la cámara, y recupera sola una grabación que no llegó a guardarse. El diseño de cada herramienta se conserva al cerrar, Preferencias tiene un enlace a tu carpeta de Google Drive, y guardar un lienzo guarda solo la página activa.",
-      "en": "The app no longer closes abruptly after several recordings or when closing the camera, and it recovers a recording that was never saved. Each tool's style is kept after closing, Preferences has a link to your Google Drive folder, and saving a canvas saves only the active page."
+      "es": "Nueva Calculadora visual (tecla D): escribe cuentas y ecuaciones como en un libro, lee números del fondo con un rectángulo y opera paso a paso tocando cada parte.",
+      "en": "New Visual Calculator (D key): write sums and equations like a textbook, read numbers from the background with a rectangle and work step by step by tapping each part."
     },
     "windows": {
-      "url": "https://github.com/Kerwin2712/screenpaint-web/releases/download/v3.2.1/ScreenPaint_Installer_v3.2.1.exe",
-      "sha256": "86e3861f21bebc92401ee47bdace597f3be5a8c5d503dbb30b5a8d6135a635c3",
-      "size": 89471740
-    },
-    "macos": {
-      "url": "https://github.com/Kerwin2712/screenpaint-web/releases/download/v3.2.1/ScreenPaint_macOS_v3.2.1.dmg",
-      "sha256": "e51b606f29681f89ba1fa0252f5a94b212671b247233c617b601a05f8cd7b6c9",
-      "size": 374746823
+      "url": "https://github.com/Kerwin2712/screenpaint-web/releases/download/v3.3.0/ScreenPaint_Installer_v3.3.0.exe",
+      "sha256": "ebeed602954e933ba24821ee6cafda6b020ee57781a0d6f885917c512de03d1a",
+      "size": 90087659
     }
   },
-  "signature": "7OXeT0FSmT0Bk9xkJmH8uPT16Bz9l5GM37Vm5EEHqvNRVtGxYEozIPoQ2kK8zmM-a5he0jrmj-kmiqh2uhBwAA"
+  "signature": "wVPUhNGhjDCUwlo0pe2kZHaPX7d6do7yZ3AvQcVqp-4dmbDm_U9aXbTCQrrk74D3BW8sQDo_-b_u8mCzr5V7CA"
 }
